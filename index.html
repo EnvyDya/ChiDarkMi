@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ChiDarkMi</title>
+    <link rel='stylesheet' type="text/css" href="style/style.css">
+    <script type="text/javascript" src="script/script.js" defer></script>
+</head>
+
+<body>
+    <div id="deadPixel"></div>
+    <header>ChiDarkMi</header>
+
+    <!-- Boutons du menu -->
+    <nav id="menu">
+        <ul>
+            <li class="liste">Jouer</li>
+            <li class="liste">Règles</li>
+        </ul>
+    </nav>
+    <section id="jeu">
+        <!-- Choix des persos -->
+        <img draggable="true" class="lesPics" src="image/bb8.png" id="bb8" />
+        <img draggable="true" class="lesPics" src="image/TIE.png" id="TIE" />
+        <img draggable="true" class="lesPics" src="image/darkSathi.png" id="darkSathi" />
+        <img draggable="true" class="lesPics" src="image/yoda.png" id="yoda" />
+        <img draggable="true" class="lesPics" src="image/sabreLaser.png" id="sabreLaser" />
+
+        <!-- Partie affichage -->
+        <div draggable="false" id="recep"></div>
+        <div draggable="false" id="trucAdverse"></div>
+        <div draggable="false" id="resultat">Veuillez commencer à jouer en mettant un personnage dans la première bulle.</div>
+        <div draggable="false" id="animation"></div>
+        <div draggable="false" id="record"></div>
+    </section>
+    <section>
+        <img id="regles" src="image/regles.png"/>
+    </section>
+    <audio autoplay loop>
+        <source src="music/back.mp3" type="audio/mp3" />
+    </audio>
+</body>
+
+</html>

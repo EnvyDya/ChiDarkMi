@@ -1,0 +1,2 @@
+First project made by Clément BONDUELLE and Thibault BOURGEAIS for the "Informatique et Sciences du Numériques" course.
+The objective was to make a "Rock-Paper-Scissors" game in HTML/CSS/JS using 5 possible playing role. It's Star Wars Themed with easter eggs and scoring. There's also handmade animations.
